@@ -14,3 +14,18 @@ body{
     font-size: 2rem;
     
 }
+.horario{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 2px;
+    
+}
+.contHora{
+    height: 50px;
+    background: red;
+    border: 1px solid #000;
+    
+}
+.hora{
+    text-align: center;
+}
